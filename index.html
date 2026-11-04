@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Md Sadique Alam, Salesforce Developer in Hyderabad. Apex, Lightning Web Components, integrations and Copado deployments." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Md Sadique Alam | Salesforce Developer</title>
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <a href="#home" class="nav__logo">Sadique Alam</a>
+        <button class="nav__toggle" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <i class="ri-menu-line"></i>
+        </button>
+        <nav>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact" class="nav__cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__inner">
+          <div class="hero__text">
+            <p class="hero__hello">Hi, I'm</p>
+            <h1>Md Sadique Alam</h1>
+            <p class="hero__role">Salesforce Developer in Hyderabad</p>
+            <p class="hero__summary">
+              I deliver end-to-end Salesforce solutions: Apex, Lightning Web Components, asynchronous processing and integrations with external systems. I work across the full project lifecycle, from requirements and design to deployment and post-production support.
+            </p>
+            <div class="hero__btns">
+              <a class="btn btn--primary" href="assets/CV.pdf" download="Md_Sadique_Alam_CV.pdf"><i class="ri-download-2-line"></i> Download CV</a>
+              <a class="btn btn--ghost" href="#projects">See my projects</a>
+            </div>
+            <ul class="hero__links">
+              <li><a href="http://www.linkedin.com/in/sadiquealam" target="_blank" rel="noopener"><i class="ri-linkedin-box-fill"></i> LinkedIn</a></li>
+              <li><a href="https://www.salesforce.com/trailblazer/sadique37" target="_blank" rel="noopener"><i class="ri-cloud-fill"></i> Trailblazer</a></li>
+              <li><a href="mailto:sadique.alam2023@gmail.com"><i class="ri-mail-fill"></i> Email</a></li>
+            </ul>
+          </div>
+          <div class="hero__photo">
+            <div class="hero__sun"></div>
+            <img class="hero__img" src="assets/profile.jpg" alt="Portrait of Md Sadique Alam" width="900" height="1100" />
+            <div class="chip chip--a"><i class="ri-award-fill"></i> 5 Salesforce certifications</div>
+            <div class="chip chip--b"><i class="ri-code-s-slash-line"></i> Apex &middot; LWC &middot; Integrations</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Highlights">
+        <div class="stats__inner">
+          <div><strong>4+</strong><span>years on Salesforce</span></div>
+          <div><strong>5</strong><span>Salesforce certifications</span></div>
+          <div><strong>5</strong><span>projects featured below</span></div>
+          <div><strong>6 mo</strong><span>as Copado Deployment Engineer</span></div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="about__photo">
+          <img src="assets/about.jpg" alt="Md Sadique Alam at work" loading="lazy" width="900" height="1100" />
+        </div>
+        <div class="about__body">
+          <h2>About me</h2>
+          <p>
+            I'm a Salesforce Developer from Hyderabad with more than four years of experience. I like work where systems have to talk to each other reliably: REST resources, callouts, retries, batch processing and clear screens for the people who use the data.
+          </p>
+          <p>
+            I've worked on projects for banking and enterprise clients, and I also manage metadata deployments with Copado, so what I build reaches production smoothly.
+          </p>
+          <div class="skills">
+            <div class="skills__group">
+              <h3>Development</h3>
+              <ul><li>Apex</li><li>Triggers</li><li>Asynchronous Apex</li><li>LWC</li><li>Aura</li><li>Visualforce</li><li>Salesforce Flows</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>Integration</h3>
+              <ul><li>REST</li><li>SOAP</li><li>GraphQL</li><li>Platform Events</li><li>Connected Apps</li><li>Named Credentials</li><li>Postman</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>Admin &amp; delivery</h3>
+              <ul><li>Sales Cloud</li><li>Service Cloud</li><li>Profiles &amp; Permission Sets</li><li>Sharing Rules</li><li>Copado</li><li>HTML / CSS / JS</li></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <h2>Projects</h2>
+        <p class="section__intro">A selection of what I've built and integrated.</p>
+        <div class="projects__grid">
+          <article class="project">
+            <img src="assets/projects/signhub.svg" alt="Diagram: Salesforce connected to SignHub" loading="lazy" />
+            <div class="project__body">
+              <h3>Salesforce to SignHub integration</h3>
+              <p class="project__meta">Ideeo Software Solution &middot; 2026 to present</p>
+              <p>Integration between Salesforce and SignHub for a bank account opening project, including signature handling.</p>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/projects/onboarding.svg" alt="Diagram: portal calling Salesforce, which calls business, customer and relationship APIs" loading="lazy" />
+            <div class="project__body">
+              <h3>Portal account onboarding</h3>
+              <p class="project__meta">Ideeo Software Solution &middot; 2026 to present</p>
+              <p>Integration work and fixes for portal onboarding. Apex callouts to external GraphQL and REST APIs create the business, customer and relationship records that open an account.</p>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/projects/scorpio.svg" alt="Diagram: Reltio sending data to Salesforce for survivor review" loading="lazy" />
+            <div class="project__body">
+              <h3>Intel Scorpio: Reltio to ISVC</h3>
+              <p class="project__meta">Accellor &middot; Apr 2024 to 2026</p>
+              <p>Inbound data transfer from Reltio through secure REST resources and a Connected App. LWC screens let the DataOps team decide survivor records, and Batch Apex merges large volumes of account data.</p>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/projects/taurus.svg" alt="Diagram: IRC connected to ISVC through Platform Events" loading="lazy" />
+            <div class="project__body">
+              <h3>Intel Taurus PFS: IRC to ISVC</h3>
+              <p class="project__meta">Accellor &middot; May 2023 to Mar 2024</p>
+              <p>Automated creation of records for premium-supported products. REST resources and Platform Events keep the two systems in sync, secured with a Connected App.</p>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/projects/accelerate.svg" alt="Illustration of a dashboard with a doughnut chart and bar chart" loading="lazy" />
+            <div class="project__body">
+              <h3>Accelerate</h3>
+              <p class="project__meta">Accellor &middot; Nov 2022 to Apr 2023</p>
+              <p>Resource management and project tracking with Apex triggers, batch classes, SendGrid email notifications and LWC dashboards showing allocation and availability, with Excel export.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <h2>Experience and education</h2>
+        <div class="timeline">
+          <article class="timeline__item">
+            <div class="timeline__date">Jul 2026 to present</div>
+            <div class="timeline__card">
+              <h3>Salesforce Developer</h3>
+              <p class="timeline__org">Ideeo Software Solution</p>
+              <ul>
+                <li>Building the Salesforce to SignHub integration for a bank account opening project, including signature handling.</li>
+                <li>Working on API-driven portal account onboarding with Apex callouts to GraphQL and REST APIs.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <div class="timeline__date">Sept 2022 to Jul 2026</div>
+            <div class="timeline__card">
+              <h3>Salesforce Developer</h3>
+              <p class="timeline__org">Accellor Software Pvt. Ltd.</p>
+              <ul>
+                <li>Designed REST resource classes that process inbound payloads, create records, attach payloads as files and update related objects, with retry logic that reprocesses failed records up to three times a day.</li>
+                <li>Built Apex callouts to the SendGrid API for automated email notifications, and configured Service Cloud Voice, Connected Apps, Named Credentials and Auth Providers.</li>
+                <li>Developed LWC dashboards for project, team and resource tracking with doughnut and bar charts, and an inbound handler for DataOps survivor decisions.</li>
+                <li>Implemented Batch Apex, Schedulable classes and Future methods, optimised SOQL, and handled governor and CPU limits.</li>
+                <li>Designed security with Profiles, Permission Sets, Permission Set Groups, role hierarchy, OWD and sharing rules.</li>
+                <li>Worked for 6 months as a Copado Deployment Engineer across multiple environments.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <div class="timeline__date">June 2018 to April 2022</div>
+            <div class="timeline__card">
+              <h3>Bachelor of Information Technology</h3>
+              <p class="timeline__org">Gaya College, Gaya &middot; 78%</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section certs" id="certifications">
+        <h2>Certifications</h2>
+        <p class="section__intro">Five Salesforce certifications, from developer fundamentals to Data Cloud and Agentforce.</p>
+        <ul class="certs__grid">
+          <li class="cert"><i class="ri-code-s-slash-line"></i><div><h3>Platform Developer I</h3><p>Salesforce Certified</p></div></li>
+          <li class="cert"><i class="ri-cloud-line"></i><div><h3>Associate</h3><p>Salesforce Certified</p></div></li>
+          <li class="cert"><i class="ri-sparkling-2-line"></i><div><h3>AI Associate</h3><p>Salesforce Certified</p></div></li>
+          <li class="cert"><i class="ri-database-2-line"></i><div><h3>Data Cloud Consultant</h3><p>Salesforce Certified</p></div></li>
+          <li class="cert"><i class="ri-robot-2-line"></i><div><h3>Agentforce Specialist</h3><p>Salesforce Certified</p></div></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="contact" id="contact">
+      <div class="contact__inner">
+        <div class="contact__text">
+          <h2>Let's work together</h2>
+          <p>Open to Salesforce roles and freelance projects. Send a message and I'll get back to you.</p>
+          <ul class="contact__list">
+            <li><i class="ri-mail-line"></i><a href="mailto:sadique.alam2023@gmail.com">sadique.alam2023@gmail.com</a></li>
+            <li><i class="ri-phone-line"></i><a href="tel:+918083610964">+91 8083610964</a></li>
+            <li><i class="ri-map-pin-line"></i>Hyderabad, India</li>
+            <li><i class="ri-linkedin-box-line"></i><a href="http://www.linkedin.com/in/sadiquealam" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><i class="ri-cloud-line"></i><a href="https://www.salesforce.com/trailblazer/sadique37" target="_blank" rel="noopener">Trailblazer profile</a></li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contact-form">
+          <label>Your name<input type="text" name="name" required autocomplete="name" /></label>
+          <label>Your email<input type="email" name="email" required autocomplete="email" /></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn--sun" type="submit">Send message</button>
+          <p class="contact__note">This opens your email app with the message ready to send.</p>
+        </form>
+      </div>
+      <p class="contact__bar">&copy; 2026 Md Sadique Alam</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
