@@ -53,7 +53,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
   display: flex; align-items: center; justify-content: space-between;
 }
 .nav__logo { font: 800 1.35rem var(--font-head); color: var(--navy); }
-.nav__toggle { background: none; border: 0; font-size: 1.7rem; color: var(--navy); cursor: pointer; }
+.nav__toggle { margin-left: auto; flex: none; display: grid; place-items: center; width: 44px; height: 44px; background: none; border: 0; font-size: 1.7rem; color: var(--navy); cursor: pointer; }
 .nav__links {
   position: absolute; left: 0; right: 0; top: 100%;
   display: none; flex-direction: column; gap: 1.25rem; padding: 1.5rem 1.25rem;
@@ -226,7 +226,8 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
   .skills { grid-template-columns: repeat(3, 1fr); }
 }
 @media (min-width: 860px) {
-  .nav__toggle { display: none; }
+  .nav__toggle { display: none; } 
+  .nav__inner > nav { margin-left: auto; }
   .nav__links { position: static; display: flex; flex-direction: row; align-items: center; padding: 0; gap: 1.75rem; background: none; border: 0; }
   .hero__inner { grid-template-columns: 1.15fr 0.85fr; padding-block: 5rem 6rem; }
   .about { grid-template-columns: 0.8fr 1.2fr; }
